@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Define a function that sums all the floating-point numbers in a list"""
+from typing import List
 
 
-def sum_list(input_list: [float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
     Add up all floating-point numbers in a list and return their sum.
 
