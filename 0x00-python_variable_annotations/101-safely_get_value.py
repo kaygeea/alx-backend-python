@@ -9,6 +9,7 @@ ret = Union[Any, def_type]
 
 
 def safely_get_value(dct: Mapping, key: Any, default: def_args = None) -> ret:
+    """Return a key from a dictionary, if it exists"""
     if key in dct:
         return dct[key]
     else:
