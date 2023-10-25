@@ -2,6 +2,7 @@
 """Add type annotation for function with params of unknown type"""
 from typing import Any, Sequence, Union
 
+
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
     Retrieve the first (i.e 0th) element of a sequence
