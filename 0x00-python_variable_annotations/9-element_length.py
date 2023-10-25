@@ -1,4 +1,4 @@
-#/usr/bin/env python3
+#!/usr/bin/env python3
 """Annotate a func params and return values"""
 from typing import Iterable, List, Sequence, Tuple
 
